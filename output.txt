@@ -1,0 +1,65 @@
+0	START	sample.c
+1	SC	
+2	IDEN	main
+2	SPEC	(
+2	SPEC	)
+3	SPEC	{
+5	IDEN	he
+5-7	MC	
+7	REWD	int
+7	IDEN	hello
+7	SPEC	;
+8	REWD	int
+8	IDEN	i
+8	OPER	,
+8	IDEN	j
+8	OPER	=
+8	INTE	0
+8	SPEC	;
+9	REWD	float
+9	IDEN	kijri2rjo23rji3rji3jri3jrij3irj3irji3jri3jir3
+9	OPER	=
+9	FLOAT	3.
+9	OPER	/
+9	IDEN	hello
+9	OPER	,
+9	IDEN	p
+9	OPER	=
+9	OPER	-
+9	INTE	1
+9	OPER	,
+9	IDEN	k
+9	OPER	=
+9	FLOAT	-.3
+9	INTE	-1
+9	SPEC	;
+10	OPER	+
+10	IDEN	kijri2rjo23rji3rji3jri3jrij3irj3irji3jri3jir3
+10	SPEC	;
+12	REWD	for
+12	SPEC	(
+12	IDEN	I
+12	OPER	=
+12	INTE	0
+12	SPEC	;
+12	IDEN	I
+12	OPER	=
+12	INTE	100
+12	SPEC	;
+12	IDEN	i
+12	OPER	++
+12	SPEC	)
+13	IDEN	printf
+13	SPEC	(
+13	STR	%dn
+13	OPER	+
+13	CHAR	hi
+13	OPER	+
+13-15	STR	 helleji2oej2i o , i);
+		   jojojo);
+		   ji13j
+15	INTE	1
+15-17	ERROR	po3j);
+		}
+		#include <stdio.h> 
+
